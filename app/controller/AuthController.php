@@ -12,14 +12,7 @@ use libreria\ORM\EtORM;
 class AuthController {
 
     public function index(){
-        
-        redirecionar("/login/nuevo");
-
-        //return Vista::crear("auth.login");
-    }
-
-    public function nuevo(){
-        echo "asas";
+        return Vista::crear("auth.login");
     }
 
     public function ingresar(){
@@ -32,11 +25,12 @@ class AuthController {
 
             if(count($data) > 0){
 
-                $_SESSION["usuario"] = $data[0]["usuario"];
-                $_SESSION["email"] = $data[0]["email"];
-                $_SESSION["privilegio"] = $data[0]["privilegio"];
+                $_SESSION['id'] = $data[0]["id"];
+                $_SESSION['usuario'] = $data[0]["usuario"];
+                $_SESSION['email'] = $data[0]["email"];
+                $_SESSION['privilegio'] = $data[0]["privilegio"];
 
-                redirecionar("/admin");
+                redirecciona()->to("admin");
             }else{
                 redirecciona()->to("/login")->withMessage(array(
                     "estado"=>"false",
