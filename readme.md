@@ -1,5 +1,5 @@
 <h3>Configuración del .htaccess</h3>
-            <p>Para el correcto funcionamiento de modular, debes de cambiar la configuración del archivo .htaccess, especificamente lo que debes de modificar es el <code>RewriteBase</code> colocando la ruta base donde esta tu proyecto.</p>
+<p>Para el correcto funcionamiento de modular, debes de cambiar la configuración del archivo .htaccess, especificamente lo que debes de modificar es el <code>RewriteBase</code> colocando la ruta base donde esta tu proyecto.</p>
 <pre>
 RewriteEngine On
 RewriteBase <span class="text-danger">/proyectos/sistemaventas/</span>
