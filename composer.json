@@ -4,6 +4,7 @@
 "keywords":["modular","framework"],
 "license":"MIT",
 "type":"project",
+"minimum-stability": "dev",
 "authors": [
 {
    "name": "Cesar Mejia",
