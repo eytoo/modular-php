@@ -1,10 +1,13 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: tactika
- * Date: 12/09/2015
- * Time: 5:53 PM
+ * Created by Eyetoo estudios.
+ * User: Cesar Mejia
+ * Date: 13/09/2015
+ * Time: 10:11 AM
  */
+
+//Incluyendo autoload al proyecto
+require RUTA_BASE.'vendor/autoload.php';
 
 require_once("help/helps.php");
 define("APP_RUTA",RUTA_BASE."app/");

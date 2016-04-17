@@ -17,7 +17,7 @@
                 <br>
                 <div class="jumbotron">
                 	<div class="container">
-                        <h1 class="titulo">Modular php</h1>
+                        <h1 class="titulo">Módular php</h1>
                         <p>Simple y util para comenzar en php</p>
                         <p>
                          <a target="_blank" href="https://github.com/eytoo/modular-php" class="btn btn-primary btn-lg">Ver proyecto <i class="fa fa-github"></i></a>
@@ -47,6 +47,16 @@ define("DB","<span class="text-primary">bd_ventas</span>");
 define("USER","<span class="text-primary">root</span>");
 <span class="text-success">//password</span>
 define("PASSWORD","<span class="text-primary">pwd</span>");</pre>
+
+<h3>Gestor de plantilla: Twig</h3>
+            <p>
+                Para realizar vistas usando el gestor de plantillas <strong>Twig</strong> necesitas instalar composer y por medio de la linea de comando ejecutar: 
+            </p>
+<pre>
+composer install
+</pre>
+
+            </div>
             </div>
         </div>
     </div>

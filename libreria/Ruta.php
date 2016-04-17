@@ -1,5 +1,10 @@
 <?php
-
+/**
+ * Created by Eyetoo estudios.
+ * User: Cesar Mejia
+ * Date: 13/09/2015
+ * Time: 10:11 AM
+ */
 class Ruta {
 
     //metodo que nos permite ingresar controladores con sus

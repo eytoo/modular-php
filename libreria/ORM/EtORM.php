@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: tactika
- * Date: 25/09/2015
- * Time: 12:02 AM
+ * Created by Eyetoo estudios.
+ * User: Cesar Mejia
+ * Date: 13/09/2015
+ * Time: 10:11 AM
  */
 namespace libreria\ORM;
 class EtORM extends \Conexion{

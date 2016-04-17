@@ -47,3 +47,4 @@ Temporary Items
 .apdisk
 assets/temporal-web-page/
 .idea/
+vendor/twig/

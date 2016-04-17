@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by Cesar Cueva Mejia.
- * User: tactika
- * Date: 17/09/2015
- * Time: 6:51 PM
+ * Created by Eyetoo estudios.
+ * User: Cesar Mejia
+ * Date: 13/09/2015
+ * Time: 10:11 AM
  */
 /*
  * función que nos permite incluir los modelos dinamicamente

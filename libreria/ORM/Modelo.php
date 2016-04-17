@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: tactika
- * Date: 17/09/2015
- * Time: 6:42 PM
+ * Created by Eyetoo estudios.
+ * User: Cesar Mejia
+ * Date: 13/09/2015
+ * Time: 10:11 AM
  */
 
 namespace libreria\ORM;
