@@ -12,7 +12,7 @@ define("VISTA_RUTA",RUTA_BASE."view/");
 define("ASSETS_PATH",RUTA_BASE."assets/");
 define("LIBRERIA",RUTA_BASE."libreria/");
 define("RUTA",APP_RUTA."rutas/");
-define("MODELS",APP_RUTA."model/");
+define("MODELS",APP_RUTA."modelo/");
 
 //configuraciones
 require_once(RUTA_BASE."config/config.php");
