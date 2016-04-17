@@ -2,7 +2,7 @@
 <p>Para el correcto funcionamiento de modular, debes de cambiar la configuración del archivo .htaccess, especificamente lo que debes de modificar es el <code>RewriteBase</code> colocando la ruta base donde esta tu proyecto.</p>
 <pre>
 RewriteEngine On
-RewriteBase <span class="text-danger">/proyectos/sistemaventas/</span>
+RewriteBase <strong class="text-danger">/proyectos/sistemaventas/</strong>
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.+)$ index.php?uri=$1 [QSA,L]
