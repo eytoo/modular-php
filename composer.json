@@ -1,7 +1,7 @@
 {
-"name":"modular_php/modular_php",
+"name":"modular/modular",
 "description":"Framework modular",
-"keywords":["modular_php","framework"],
+"keywords":["modular","framework"],
 "license":"MIT",
 "type":"project",
 "authors": [
