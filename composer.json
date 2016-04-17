@@ -1,19 +1,19 @@
 {
-	"name":"modular/modular",
-	"description":"Framework modular",
-	"keywords":["modular","framework"],
-	"license":"MIT",
-	"type":"project",
-	"authors": [
-        {
-            "name": "Cesar Mejia",
-            "email": "cmejia@formandocodigo.com",
-            "homepage": "https://formandocodigo.com",
-            "role": "Developer"
-        }
-    ],
-  	"require":{
-  		"php": ">=5.5.0",
-    	"twig/twig": "~1.0"
-  	}
+"name":"módular-php/módular-php",
+"description":"Framework módular",
+"keywords":["módular-php","framework"],
+"license":"MIT",
+"type":"project",
+"authors": [
+{
+   "name": "Cesar Mejia",
+   "email": "cmejia@formandocodigo.com",
+   "homepage": "https://formandocodigo.com",
+   "role": "Developer"
+}
+],
+"require":{
+  "php": ">=5.5.0",
+  "twig/twig": "~1.0"
+}
 }
